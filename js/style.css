@@ -1,0 +1,253 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.container1
+{
+    width: 22%;
+    padding: 15px;  
+    box-shadow: 0 0 5px 1px rgb(158, 148, 148);
+    margin-bottom: 2%;
+    margin-top: 10px;
+    height: 330px;
+}
+.container1 img
+{
+    width: 190.3px;
+    height: 150px;
+    margin-top: -14.9px;
+    margin-left: -14.9px;
+}
+.a
+{
+    display: flex;
+}
+.name
+{
+    font-size: 18px;
+    font-weight: 800;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.p
+{
+    padding-right: 5px;
+}
+.learn
+{
+    background-color: rgb(48, 152, 238);
+    height: 30px;
+    font-size: 13px;
+    width: 105px;
+    border: none;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+}
+.back
+{
+    margin-left: 30px;
+    margin-top: -7px;
+    border: 1px solid grey;
+    padding-bottom: 3px;
+    position: absolute;
+}
+.support
+{
+    background-color: rgb(54, 160, 206);
+    width: 70%;
+    height: 510px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    border: 1px solid grey;
+    text-align: start;
+}
+.pFlags
+{
+    height: 300px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    border: 2px solid rgb(16, 16, 10);
+}
+.theOne
+{
+    color: white;
+    padding-left: 115px;
+    padding-top: 15px;
+}
+.aoao
+{
+    background-color: rgb(35, 63, 62);
+}
+.back 
+{
+    height: 30px;
+    padding-top: 3px;
+    width: 30px;
+}
+.back:hover
+{
+    background-color: green;
+    border: 2px solid black;
+}
+.second
+{
+    position: relative;
+    display: flex;
+    margin-top: -15px;
+}
+.second input[type='text']
+{
+    padding-left: 36px;
+    padding-top: 3px;
+}
+.second span
+{
+    position: absolute;
+    left: 13px;
+    top: -2.5px;
+}
+.name1
+{
+    height: 35px;
+    border-radius: 16px;
+    width: 200px;
+    font-size: 17px;
+    border: none;
+    margin-top: 10px;
+}
+.name1:hover
+{
+    border-bottom: 2px solid rgb(204, 203, 203);
+}
+.name1:focus
+{
+    outline: none;
+}
+.bca
+{
+    width: 17px;
+    height: 17px;
+    margin-top: 23px;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1.5px solid rgb(228, 228, 228);
+    box-shadow: 0 0 8px 2px rgb(184, 175, 175);
+}
+.earth
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 189px;
+    margin-left: 40px;
+}
+.earth p
+{
+    font-weight: 550;
+    font-size: 17px;
+    color: grey;
+}
+.action
+{
+    display: flex;
+    align-content: center;
+    width: 350px;
+    justify-content: space-between;
+}
+.mode
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+}
+.selectContinents
+{
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    margin-top: -4px;
+    padding-left: 5px;
+    width: 130px;
+    border-bottom: 2px solid rgb(204, 203, 203);
+}
+.selectContinents:focus
+{
+    outline: none;
+}
+.container{
+    position: relative;
+    width: 80px;
+    height: 100px;
+    margin-top: 70px;
+}
+body{
+    height: 100vh;
+    transition: background-color 1s;
+}
+.dark{
+    background-color: black;
+    color: rgb(209, 205, 205);
+}
+.sun, .moon{
+    width: fit-content;
+    height: fit-content;
+}
+.moon{
+    position: absolute;
+    inset: 0;
+}
+.moon-logo{
+    opacity: 0;
+    transform: translateY(20%) rotateZ(50deg);
+    transition: all 1s ease-out;
+}
+.sun-logo{
+    opacity: 1;
+    transform: translateY(0) rotateZ(0deg);
+    transition: all 1s ease-out;
+}
+.animate-sun{
+    opacity: 0;
+    transform: translateY(20%) rotateZ(100deg);
+}
+.animate-moon{
+    opacity: 1;
+    transform: translateY(0%) rotateZ(0deg);
+}
+.animate-moon path{
+  fill: white;
+}
+.animate-sun path{
+  fill: white;
+}
+.a
+{
+    display: flex;
+    flex-wrap: wrap;
+}
